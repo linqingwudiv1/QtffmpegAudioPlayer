@@ -1,0 +1,116 @@
+QFrame#MainWindow{
+    background : rgb(255, 255, 255);
+
+}
+
+QLabel{
+    background : transparent;
+}
+
+QWidget#TitleBar{
+    background : rgb(255, 110, 20);
+}
+
+QPushButton{
+    background : transparent;
+    border : 0px ;
+}
+
+QPushButton#listBtn:active{
+    background : rgb(199, 199, 199);
+}
+
+QPushButton::menu-indicator{
+    image: none;
+}
+QPushButton#playBtn,QPushButton#BFBtn,QPushButton#FFBtn{
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background :rgb(88, 88, 88);
+}
+
+QPushButton:checked {
+    background : rgb(177, 177, 177);
+}
+
+QPushButton:pressed{
+    background : rgb(122, 122, 88);
+}
+
+QSlider{
+    background : rgb(102, 102, 102);
+}
+
+QSlider::groove:horizontal{
+    height: 2px;
+    background: black;
+    margin: 2px -2px;
+}
+
+QSlider::handle:horizontal{
+   background : rgb(133, 133, 133);
+   width: 8px;
+   margin: -5px 0px;
+   border-radius: 3px;
+}
+
+QSlider::handle:horizontal:hover{
+background : rgb(33, 33, 33);
+}
+
+QSlider#slider{
+    background : transparent;
+}
+
+QSlider::sub-page:horizontal{
+    background : rgb(255, 110, 30);
+    margin: 2px -2px;
+    height: 2px;
+}
+
+
+QScrollBar:vertical {
+    border: 0px solid grey;
+    background: transparent;
+    width: 10px;
+    margin: 10px 0 10px 0;
+}
+QScrollBar::handle:vertical {
+    background : rgb(88, 88, 88);
+    min-height : 60px;
+    border-radius: 5px;
+}
+QScrollBar::add-line:vertical {
+    border: 0px solid grey;
+    background: transparent;
+    height: 10px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+ }
+
+QScrollBar::sub-line:vertical {
+    border: 0px solid grey;
+    background: transparent;
+    height: 10px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+
+QMenu{
+    background : rgb(102, 102, 102);
+}
+
+QTableView{
+    border-top:2px;
+    alternate-background-color : rgb(240, 240,240);
+    selection-color : white;
+    selection-background-color : rgb(88,88,88);
+}
